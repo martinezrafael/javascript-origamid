@@ -1,0 +1,57 @@
+## Javascript Completo ES6+
+var, const, let class, async, await, fetch, promisse e mais
+
+## Pré-requisitos
+HTML/CSS
+
+## Ferramentas
+Visual Studio Code, Node.js, NPM e Git
+
+**Projeto do curso: Animais Fantásticos**
+
+## Grade do curso
+
+## Introdução
+Sobre a linguagem e configuração do ambiente.
+
+## Javascript para Iniciantes
+Dados, variáveis, operadores, boolean, funções, objetos, arrays, loops e mais.
+
+## DOM para Iniciantes
+Inicio do projeto, selecionar e manipular o dom, eventos, transversing e mais.
+
+## Objetos
+Constructor functions, prototype, String, Array, Math, Number, Function, Object
+
+## Efeitos no DOM
+Modules, event bubble, setTimeout, forms e mais.
+
+## Javascript Assíncrono
+Promises, Fetch(novo AJAX), JSON, API, HTTP, Async/Await e mais.
+
+## Classes
+Class, constructor, get, set, extends e mais.
+
+## Mais Javascript
+IIFE, factory function, clojures, debugging, destructuring, rest, iterables.
+
+## Regular Expression
+Principais padrões e métodos
+
+## Automação Front End
+CLI, NPM, ESLint, Webpack, Babel e Git
+
+## Projeto Final
+Refatoração do projeto utilizando classes. Praticando com Git, Eslint e mais.
+
+## Slide
+Criação do plugin de slide
+
+**Dúvidas Frequentes**
+
+## Completo?
+Foco no entendimento completo da linguagem e principais padrões de uso.
+
+## Vai direto ao ponto?
+Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender o ponto.
+Eu rodo o ponto, volto no ponto e demonstro o ponto.
