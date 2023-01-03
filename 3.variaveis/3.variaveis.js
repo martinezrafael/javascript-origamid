@@ -79,8 +79,4 @@ var comidaFavorita;
 comidaFavorita = "Pastel";
 
 // Declarar 5 variáveis diferentes sem valores
-var temperatura;
-var saborPastel;
-var corCamiseta;
-var quantidade;
-var vencedor;
+var temperatura, saborPastel, corCamiseta, quantidade, vencedor;
