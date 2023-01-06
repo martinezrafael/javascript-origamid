@@ -111,11 +111,8 @@ var cincoNumber = 5;
 console.log(++cincoNumber); //6
 
 /*Como dividir o peso por 2*/
-var numero = "80";
+var numero = +"80" / 2;
 var unidade = "kg";
 
 var peso = numero + unidade; //80Kg;
 console.log(peso);
-
-var pesoPorDois = +numero / 2; //40
-console.log(pesoPorDois);
