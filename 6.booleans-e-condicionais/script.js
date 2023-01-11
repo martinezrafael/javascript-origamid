@@ -222,8 +222,14 @@ if (dinheiroNaConta) {
 
 //Compare o total de habitantes no Brasil com china (valor em milhões)
 
-var brasil = 207e9;
-var china = 1340e9;
+var brasil = 207;
+var china = 1340;
+
+if (brasil > china) {
+  console.log("Brasil tem mais habitantes");
+} else {
+  console.log("Brasil tem menos habitantes");
+}
 
 //O que irá aparecer no console?
 if ("Gato" === "gato" && 5 > 2) {
