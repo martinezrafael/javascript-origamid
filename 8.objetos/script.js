@@ -48,3 +48,40 @@ console.log(pi * Math.random());
 
 //Math é um objeto nativo de Javascript
 //Já percebeu que console é um objeto e log() um método?
+
+// var menu = {
+//   width: 800,
+//   height: 50,
+//   backgroundColor: "#84e",
+// };
+
+// menu.backgroundColor = "#000";
+
+// menu.color = "blue";
+
+// var bg = menu.backgroundColor;
+// console.log(bg);
+
+//Palavra chave this
+//this irá fazer uma referência ao próprio objeto
+
+var menu = {
+  width: 800,
+  height: 50,
+  metadeHeight() {
+    return this.height / 2;
+  },
+};
+
+var aluno = {
+  nome: "Rafael",
+  idade: 32,
+  pagou: false,
+  podeAcessar() {
+    return this.pagou ? "Acesso Liberado" : "Acesso Negado";
+  },
+};
+
+//verifica se tem a proporiedade width no objeto
+let hasWidth = menu.hasOwnProperty("width");
+console.log(hasWidth);
