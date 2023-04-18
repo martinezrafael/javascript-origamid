@@ -40,3 +40,78 @@ let cachorro = {
     }
   },
 };
+
+//Tudo é objeto
+
+/*
+  Strings, Números, Boolean, Objetos e mais, possuem propriedades e métodos. por isso são objetos.
+*/
+
+var nome = "André";
+
+nome.length; //5
+nome.charAt(1); //'n'
+nome.replace("ré", "rei"); //'Andrei'
+nome; //'André';
+
+//Uma string herda propriedades e métodos do construtor String();
+
+//Números
+var altura = 1.8;
+
+altura.toString(); //'1.8'
+altura.toFixed(); //'2';
+
+/*
+  Por um breve momento o número é
+  envolvido em um objeto
+  (coerção), tendo acesso assim as
+  suas propriedades e métodos
+*/
+
+//Elementos do DOM
+
+var btn = document.querySelector(".btn");
+
+btn.classList.add("azul"); //adiciona a classe azul
+btn.innerText; //"Clique"
+btn.addEventListener("click", function (event) {
+  event.preventDefault();
+  console.log("Clicou");
+});
+
+/*
+  Praticamente todos os efeitos
+  com JS são feitos utilizando
+  propriedades e métodos de
+  objetos do DOM.
+*/
+
+/*
+  Objetos revolucionaram
+  a programação
+
+  Web API's são métodos e propriedades que permitem a
+  interação Javascript e Browser
+*/
+
+//Exercicio - Tudo é Objeto
+
+//Nomeie 3 propriedades ou métodos de string
+var nome = "Rafael";
+charAt();
+replace();
+length;
+
+//Nomeie 5 propriedades ou métodos de elementos do DOM
+var btn = document.querySelector(".btn");
+btn.addEventListener();
+btn.setAttribute();
+btn.innerText();
+btn.appendChild();
+btn.id();
+
+//Busque na web um objeto (método) capaz de interagir com o clipboard
+//Clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
+
+// https://clipboardjs.com/
